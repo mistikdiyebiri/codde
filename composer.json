@@ -1,0 +1,30 @@
+{
+    "name": "mistikdiyebiri/tryoto-sdk",
+    "description": "TryOto Kargo API ile entegre çalışan, CodeIgniter 4 uyumlu bağımsız PHP SDK",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "TryOto\\SDK\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "mistikdiyebiri",
+            "email": "your.email@example.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": "^7.3|^8.0",
+        "guzzlehttp/guzzle": "^7.0",
+        "ext-json": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.0",
+        "squizlabs/php_codesniffer": "^3.5"
+    },
+    "suggest": {
+        "codeigniter4/framework": "^4.0 TryOto SDK'yı CodeIgniter 4 projelerinde kullanmak için"
+    }
+}
